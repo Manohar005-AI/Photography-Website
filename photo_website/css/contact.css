@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 50vw;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+input,textarea
+{
+    border: none;
+    outline: none;
+
+}
+.name,.number,.email,.reason,.submit
+{
+    width: 25vw;
+    background-color: white;
+    padding: 15px;
+    margin: 70px;
+    height: 20px;
+}
+.reason
+{
+    height: fit-content;
+}
+.submit,#submit
+{
+    background-color: #FFC847;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
